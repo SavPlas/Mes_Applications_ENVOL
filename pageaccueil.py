@@ -3,7 +3,7 @@ import base64  # Pour encoder les icônes si elles sont des images
 
 st.set_page_config(page_title="Mes Applications", page_icon="🚀")
 
-st.title("Mes Applications ENVOL")
+st.title("Mes Applications Voyages scolaires & Chromebook")
 
 search_term = st.text_input("Rechercher une application", "")
 
