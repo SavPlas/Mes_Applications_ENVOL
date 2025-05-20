@@ -72,7 +72,7 @@ with app_container:
     with cols[2]:
         app_button("ENVOL : création d’un fichier avec items sélectionnées", "https://selectioncolonnespy-943nubrhrzjbbbf8mmcwks.streamlit.app", icon_path="https://img.icons8.com/color/50/document.png")
     with cols[2]:
-        app_button("CHROMEBOOK : créationd'étiquette", "https://scriptpy-j8xsldmpuujezweetyasrs.streamlit.app", icon_path="https://img.icons8.com/color/50/document.png")
+        app_button("CHROMEBOOK : création d'étiquette", "https://scriptpy-j8xsldmpuujezweetyasrs.streamlit.app", icon_path="https://img.icons8.com/color/50/document.png")
 
 st.markdown("---")
 st.caption("Applications approuvées")
