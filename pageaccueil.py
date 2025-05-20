@@ -64,7 +64,7 @@ def app_button(app_name, app_url, icon_path=None, icon_base64=None):
 # -----  Vos applications  -----
 
 with app_container:
-    cols = st.columns(3)  # Créer 3 colonnes pour 3 applications par ligne
+    cols = st.columns(4)  # Créer 3 colonnes pour 3 applications par ligne
     with cols[0]:
         app_button("ENVOL : toute l'école avec mes items de prédilection", "https://envoltoutelecole-h5e7hbqqr7uackudf85mer.streamlit.app", icon_path="https://img.icons8.com/color/50/school-building.png")
     with cols[1]:
