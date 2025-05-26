@@ -74,6 +74,6 @@ with app_container:
     with cols[3]:
         app_button("CHROMEBOOK : création d'étiquette", "https://scriptpy-j8xsldmpuujezweetyasrs.streamlit.app", icon_path="https://img.icons8.com/?size=80&id=45739&format=png")
     with cols[4]:
-        app_button("CHROMEBOOK : création de QR Code", "https://cr-ationdeqrcode-mzphgnbtcslaftpnxapp28.streamlit.app", icon_path="https://media.istockphoto.com/id/2212108254/vector/%C3%B0%C2%BA%C3%B0%C3%B0.jpg?s=2048x2048&w=is&k=20&c=tK3SaV9mJHn5paAo1EJ3P8wtV54DPtQjYeCrFXnIzLI=")
+        app_button("GOOGLE DOCS : création de QR Code", "https://cr-ationdeqrcode-mzphgnbtcslaftpnxapp28.streamlit.app", icon_path="https://media.istockphoto.com/id/2212108254/vector/%C3%B0%C2%BA%C3%B0%C3%B0.jpg?s=2048x2048&w=is&k=20&c=tK3SaV9mJHn5paAo1EJ3P8wtV54DPtQjYeCrFXnIzLI=")
 st.markdown("---")
 st.caption("Applications approuvées")
