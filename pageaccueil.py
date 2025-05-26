@@ -64,7 +64,7 @@ def app_button(app_name, app_url, icon_path=None, icon_base64=None):
 # -----  Vos applications  -----
 
 with app_container:
-    cols = st.columns(4)  # Créer 4 colonnes pour 4 applications par ligne
+    cols = st.columns(5)  # Créer 5 colonnes pour 5 applications par ligne
     with cols[0]:
         app_button("ENVOL : toute l'école avec mes items de prédilection", "https://envoltoutelecole-h5e7hbqqr7uackudf85mer.streamlit.app", icon_path="https://img.icons8.com/color/50/school-building.png")
     with cols[1]:
@@ -73,6 +73,7 @@ with app_container:
         app_button("ENVOL : création d’un fichier avec items sélectionnées", "https://selectioncolonnespy-943nubrhrzjbbbf8mmcwks.streamlit.app", icon_path="https://img.icons8.com/color/50/document.png")
     with cols[3]:
         app_button("CHROMEBOOK : création d'étiquette", "https://scriptpy-j8xsldmpuujezweetyasrs.streamlit.app", icon_path="https://img.icons8.com/?size=80&id=45739&format=png")
-
+    with cols[4]:
+        app_button("CHROMEBOOK : création de QR Code", "https://cr-ationdeqrcode-mzphgnbtcslaftpnxapp28.streamlit.app", icon_path="https://media.istockphoto.com/id/2212108254/vector/%C3%B0%C2%BA%C3%B0%C3%B0.jpg?s=2048x2048&w=is&k=20&c=tK3SaV9mJHn5paAo1EJ3P8wtV54DPtQjYeCrFXnIzLI=")
 st.markdown("---")
 st.caption("Applications approuvées")
